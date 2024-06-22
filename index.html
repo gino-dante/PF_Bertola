@@ -48,13 +48,12 @@
                 </div>
             </div>
             
-            <div class="nav__btns">
                 <!-- Carrito -->
                 <div class="nav__cart">
                     <i class="ri-shopping-cart-line" id="cart-icon"></i>
                     <span id="cart-count" class="cart__count">0</span>
                 </div>
-            </div>  
+        
 
             <div class="nav__toggle" id="nav-toggle">
                 <i class="ri-function-line"></i>
@@ -315,6 +314,14 @@
                         <i class="ri-send-plane-line button__icon"></i> Suscribirse
                     </button>
                 </form>
+                
+                 <div class="footer__content">
+                <h3 class="footer__title">Contacto</h3>
+                <ul class="footer__links">
+                    <li><a href="tel:+123456789" class="footer__link">Teléfono: +123 456 789</a></li>
+                    <li><a href="mailto:info@tuempresa.com" class="footer__link">Email: info@tuempresa.com</a></li>
+                </ul>
+            </div>
 
                 <div class="footer__social">
                     <a href="https://www.facebook.com/" target="_blank" class="footer__social-link">
@@ -346,13 +353,6 @@
 
     <!--=============== MAIN JS ===============-->
     <script src="js/mains.js"></script>
-    <script>
-         // Función para añadir productos al carrito
-        var cartCount = 0;
-        $('.add-to-cart').on('click', function() {
-            cartCount++;
-            $('#cart-count').text(cartCount);
-            alert('Producto añadido al carrito!');
-    </script>
+   
 </body>
 </html>
