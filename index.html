@@ -346,5 +346,13 @@
 
     <!--=============== MAIN JS ===============-->
     <script src="js/mains.js"></script>
+    <script>
+         // Función para añadir productos al carrito
+        var cartCount = 0;
+        $('.add-to-cart').on('click', function() {
+            cartCount++;
+            $('#cart-count').text(cartCount);
+            alert('Producto añadido al carrito!');
+    </script>
 </body>
 </html>
