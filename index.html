@@ -353,6 +353,12 @@
 
     <!--=============== MAIN JS ===============-->
     <script src="js/mains.js"></script>
+
+    <script> // Funcionalidad de agregar al carrito
+        $('.add-to-cart').on('click', function(){
+            var count = parseInt($('#cart-count').text());
+            $('#cart-count').text(count + 1);
+        });</script>
    
 </body>
 </html>
